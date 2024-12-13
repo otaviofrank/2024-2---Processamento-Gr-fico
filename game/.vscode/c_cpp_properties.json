@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../Dependencies/GLAD/include",
+                "${workspaceFolder}/../Dependencies/glfw-3.4.bin.WIN64/include",
+                "${workspaceFolder}/../Dependencies/glm",
+                "${workspaceFolder}/../Dependencies/stb_image"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
